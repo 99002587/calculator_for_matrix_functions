@@ -48,3 +48,22 @@ void mul(int matrix_a[3][3], int matrix_b[3][3])
         
     }
 }
+
+
+void transpose(int matrix_a[3][3])
+	
+{
+
+int row;
+int col;
+scanf("%d %d", &row, &col); //transpose of a matrix
+ int trans[3][3];
+
+ for (i = 0; i < row; ++i)
+        for (j = 0; j < col; ++j) {
+            trans[j][i] = matrix_a[i][j];
+        }
+		
+		
+		
+}	
