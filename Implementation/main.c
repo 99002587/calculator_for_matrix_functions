@@ -47,8 +47,13 @@ int main()
         
         case 2:
             printf("Multiplication");
-              mul(matrix_a, matrix_b);
+             mul(matrix_a, matrix_b);
             break;
+			
+		case 3:
+            printf("Transpose");
+            transpose(matrix_a);
+			break;
 			
         default:
             printf("\n\t---It should never come here---\n");
