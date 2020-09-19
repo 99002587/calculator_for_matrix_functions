@@ -5,7 +5,7 @@
 int main()
 {
     
-   
+  void read(); 
 
     return 0;
 }
