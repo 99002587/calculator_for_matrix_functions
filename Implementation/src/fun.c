@@ -56,6 +56,8 @@ void transpose(int matrix_a[3][3])
 
 int row;
 int col;
+	int i;
+	int j;
 scanf("%d %d", &row, &col); //transpose of a matrix
  int trans[3][3];
 
