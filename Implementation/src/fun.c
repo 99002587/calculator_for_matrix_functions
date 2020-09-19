@@ -27,7 +27,7 @@ void mul(int matrix_a[3][3], int matrix_b[3][3])
 {
 
     int prod[3][3];
-	int	xx; 
+	int xx; 
 	int yy;
 	int zz;
 	int sum;
@@ -65,7 +65,6 @@ scanf("%d %d", &row, &col); //transpose of a matrix
         for (j = 0; j < col; ++j) {
             trans[j][i] = matrix_a[i][j];
         }
-		
-		
+				
 		
 }	
