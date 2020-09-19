@@ -8,4 +8,5 @@
 
 void add(int matrix_a[3][3], int matrix_b[3][3]);
 void mul(int matrix_a[3][3], int matrix_b[3][3]);
+void transpose(int matrix_a[3][3]);
 #endif
